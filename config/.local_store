@@ -1,4 +1,20 @@
 {
+    "Day3ListsAndLoops.cls": {
+        "id": "01p1I000007UJhgQAG",
+        "name": "Day3ListsAndLoops",
+        "createdDate": "2017-10-26T21:29:58.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-10-27T00:00:29.000+0000",
+        "fullName": "Day3ListsAndLoops",
+        "fileName": "unpackaged/classes/Day3ListsAndLoops.cls",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
     "Day0Example.cls": {
         "createdById": "0051I000000dBBaQAM",
         "createdByName": "Kristen Owens",
@@ -14,17 +30,15 @@
         "mmState": "clean"
     },
     "GitExampleDay2.cls": {
-        "id": "01p1I000007TUQlQAO",
-        "name": "GitExampleDay2",
-        "createdDate": "2017-10-25T23:37:31.000+0000",
         "createdById": "0051I000000dBBaQAM",
-        "namespacePrefix": null,
-        "lastModifiedById": "0051I000000dBBaQAM",
-        "lastModifiedDate": "2017-10-26T21:21:20.000+0000",
-        "fullName": "GitExampleDay2",
-        "fileName": "unpackaged/classes/GitExampleDay2.cls",
         "createdByName": "Kristen Owens",
+        "createdDate": "2017-10-25T23:37:31.000Z",
+        "fileName": "unpackaged/classes/GitExampleDay2.cls",
+        "fullName": "GitExampleDay2",
+        "id": "01p1I000007TUQlQAO",
+        "lastModifiedById": "0051I000000dBBaQAM",
         "lastModifiedByName": "Kristen Owens",
+        "lastModifiedDate": "2017-10-26T21:21:20.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
