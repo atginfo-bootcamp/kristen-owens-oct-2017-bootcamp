@@ -1,3 +1,7 @@
+/**
+On Day 3
+We made this comment
+*/
 public with sharing class GitExampleDay2 {
 	
 	// To invoke this, call GitExampleDay2.doStuff();
