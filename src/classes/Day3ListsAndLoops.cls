@@ -54,9 +54,9 @@ public with sharing class Day3ListsAndLoops {
 
 	// To invoke, call Day3ListsAndLoops.executeLoops();
 	public static void executeLoops() {
-		// Apex for loops take 3 arguments: index variable, conditon, counter variable
+		// Apex For loops take 3 arguments: index variable, conditon, counter variable
 
-		// Basic for loops
+		// Basic For loops
 		for(Integer i = 0; i < 10; i++) {
 			System.debug('i: ' + i);
 		}
@@ -71,7 +71,7 @@ public with sharing class Day3ListsAndLoops {
 			System.debug('name number' + i + ': ' + names[i]);
 		}
 
-		// Advanced for loop
+		// Advanced For loop
 		for(String name : names) {
 			System.debug('name: ' + name);
 		}
