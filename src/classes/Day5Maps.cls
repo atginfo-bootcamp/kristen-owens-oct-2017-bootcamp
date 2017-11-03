@@ -44,8 +44,7 @@ public with sharing class Day5Maps {
 		*/
 
 		List<Account> acctList = [
-			SELECT Id, Name FROM Account
-		];
+			SELECT Id, Name FROM Account];
 		Map<Id, Account> acctMap = new Map<Id, Account>(acctList);
 
 		List<Contact> ctList = [
