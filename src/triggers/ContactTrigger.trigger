@@ -1,3 +1,6 @@
+// When contact is created, updated, or deleted, update field on Account
+// After context is generally most common - it's already in the database.
+
 trigger ContactTrigger on Contact (after insert, after update, after delete) {
 
 	if(Trigger.isAfter && Trigger.isInsert) {
