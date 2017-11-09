@@ -138,5 +138,37 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "UnitTestExample.cls": {
+        "id": "01p1I000009imPcQAI",
+        "name": "UnitTestExample",
+        "createdDate": "2017-11-08T22:23:49.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-11-08T22:43:37.000+0000",
+        "fullName": "UnitTestExample",
+        "fileName": "unpackaged/classes/UnitTestExample.cls",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "ContactTriggerHelperTests.cls": {
+        "id": "01p1I000009iqAoQAI",
+        "name": "ContactTriggerHelperTests",
+        "createdDate": "2017-11-08T23:01:28.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-11-09T00:00:50.000+0000",
+        "fullName": "ContactTriggerHelperTests",
+        "fileName": "unpackaged/classes/ContactTriggerHelperTests.cls",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
