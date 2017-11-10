@@ -5,10 +5,8 @@ public with sharing class ContactTriggerHelper {
 		Map<Id, Account> accountMap = queryAccountsFromContacts(contacts);
 
 		if(accountMap.size() > 0){
-
 			List<Account> accounts = accountMap.values();
 			updateAccountNumberOfContacts(accounts);
-
 		}
 
 	}
@@ -23,6 +21,7 @@ public with sharing class ContactTriggerHelper {
 			2. If oldMap != null and new = null, update old account
 			3. If oldMap != null and new != null && != oldMap, update both accounts
 		*/
+		
 		Set<Id> accountIds = new Set<Id>();
 
 		for(Contact contact : contacts){
@@ -47,10 +46,12 @@ public with sharing class ContactTriggerHelper {
 	
 	}
 
+	/*
 	public static void handleAfterDelete(List<Contact> contacts){
 		// If Contact has an assigned Account, update current_number_of_contacts__c on Account
 	
 	}
+	*/
 
 	private static Map<Id, Account> queryAccountsFromContacts(List<Contact> contacts){
 		Set<Id> accountIds = new Set<Id>();

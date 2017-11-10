@@ -10,9 +10,9 @@ trigger ContactTrigger on Contact (after insert, after update, after delete) {
 	else if(Trigger.isAfter && Trigger.isUpdate) {
 		ContactTriggerHelper.handleAfterUpdate(Trigger.new, Trigger.oldMap);
 	}
-
+	/*
 	else if(Trigger.isAfter && Trigger.isDelete) {
 		ContactTriggerHelper.handleAfterDelete(Trigger.old);
 	}
-
+	*/
 }
