@@ -46,10 +46,12 @@ public with sharing class ContactTriggerHelper {
 	
 	}
 
+	/*
 	public static void handleAfterDelete(List<Contact> contacts){
 		// If Contact has an assigned Account, update current_number_of_contacts__c on Account
 	
 	}
+	*/
 
 	private static Map<Id, Account> queryAccountsFromContacts(List<Contact> contacts){
 		Set<Id> accountIds = new Set<Id>();
