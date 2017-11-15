@@ -170,5 +170,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Person.cls": {
+        "id": "01p1I00000AaoJfQAJ",
+        "name": "Person",
+        "createdDate": "2017-11-14T23:21:37.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-11-15T00:57:23.000+0000",
+        "fullName": "Person",
+        "fileName": "unpackaged/classes/Person.cls",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }

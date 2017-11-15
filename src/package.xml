@@ -10,6 +10,7 @@
 		<members>LeadTriggerHelper</members>
 		<members>UnitTestExample</members>
 		<members>ContactTriggerHelperTests</members>
+		<members>Person</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
