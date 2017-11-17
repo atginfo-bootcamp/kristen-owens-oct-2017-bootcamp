@@ -15,6 +15,7 @@ public with sharing class Business {
 		this.phoneNumber = phoneNumber;
 
 		this.employees = new List<Employee>();
+
 	}
 
 	public void addEmployees(Employee employee) {
@@ -35,18 +36,24 @@ public with sharing class Business {
 	public Employee getEmployeeFromId(Integer employeeId) {
 		// if an employee with this Id is not found, return null
 		
-
-		Employee employee;
 		for(Employee currEmployee : employees) {
 			if(employeeId == currEmployee.getEmployeeId()) {
 				return currEmployee;
 			}
 		}
-		return employee;
+		return null;
 		
 	}
 
-	public void removeEmployeeFromLocation(Integer employeeId) {
+	public Boolean removeEmployeeFromLocation(Integer employeeId) {
+
+		for(Integer i = 0; i < employees.size(); ++i) {
+			if(employeeId == employees.get(i).getEmployeeId()) {
+				employees.remove(i);
+				return true;
+			}
+		}
+		return false;
 
 	}
 
@@ -54,12 +61,25 @@ public with sharing class Business {
 		System.debug(businessName + ' is a business in ' + locationName);
 		System.debug('It has ' + employees.size() + ' employees.');
 		System.debug('It is located at ' +  address + ' and its phone number is ' + phoneNumber);
-		System.debug('This is a list of its employees: ' + employees);
+		System.debug('These are all of its employees:'); 
+		if(employees.size() > 0) {	
+			for(Employee employee : employees) {
+				employee.printEmployeeInfo();
+			}
+		} else {System.debug('NO EMPLOYEES FOUND');}
 	}
 
-	public static Boolean transferEmployee(Business fromLoc, Business toLoc, Integer employeeId) {
-		// work on this last - bonus
+	public static Boolean transferEmployee(Integer employeeId, Business fromLoc, Business toLoc) {
+		
+		Employee employee = fromLoc.getEmployeeFromId(employeeId);
+		if(employee != null) {
+			fromLoc.removeEmployeeFromLocation(employeeId);
+			toLoc.addEmployees(employee);
+			employee.setStatus('TRANSFERED');
+			return true;
+		}
 		return false;
+
 	}
 
 }

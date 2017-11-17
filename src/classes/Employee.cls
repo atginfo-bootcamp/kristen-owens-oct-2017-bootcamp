@@ -2,21 +2,22 @@ public with sharing class Employee {
 	
 	private static Integer nextEmployeeIdNumber = 1;
 
-	private final Integer EMPLOYEEID;
+	private final Integer EMPLOYEE_ID;
 	private String title;
 	private String firstName;
-	private String lastName;
+	private String lastName; // {get; set {statusDate = Datetime.now}}
+							// special way to allow getting and setting of private properties
 	private Date hireDate;
 	private String status;
 	private Datetime statusDate;
 
 	public Employee(String title, String firstName, String lastName) {
-		// Implement this!
+	
 		this.hireDate = Date.today();
 		this.status = 'Active';
 		this.statusDate = Datetime.now();
 
-		this.EMPLOYEEID = nextEmployeeIdNumber;
+		this.EMPLOYEE_ID = nextEmployeeIdNumber;
 		nextEmployeeIdNumber = nextEmployeeIdNumber	+ 1;
 
 		this.title = title;
@@ -26,7 +27,28 @@ public with sharing class Employee {
 	}
 
 	public Integer getEmployeeId() {
-		return EMPLOYEEID;
+		return EMPLOYEE_ID;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public Datetime getStatusDate() {
+		return statusDate;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+		this.statusDate = Datetime.now();
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public void printEmployeeInfo() {
@@ -37,6 +59,7 @@ public with sharing class Employee {
 		System.debug(name + ' is an ' + title + '.');
 		System.debug(name + ' was hired on ' + hireDate);
 		System.debug(name + ' is an ' + status + ' employee as of ' + statusDate);
-		System.debug(name + '\'s Employee ID is ' + EMPLOYEEID + '.');
+		System.debug(name + '\'s Employee ID is ' + EMPLOYEE_ID + '.');
 	}
+
 }

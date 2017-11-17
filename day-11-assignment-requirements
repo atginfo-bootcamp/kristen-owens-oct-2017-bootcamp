@@ -1,0 +1,44 @@
+Class assignment - 11/15/2017
+ 
+We want to build a business
+	We will have one location to start
+
+A business has the following properties:
+	Name of business (all locations share same business name)
+	Location name
+	Location address
+	Location phone number
+	Employees
+
+Employees have
+	Employee id (must be all numeric and unique across entire company)
+	Position Title
+		Executive, Manager, Employee
+	First name
+	Last name
+	Hire date
+	Status
+		Active, Terminated, Suspended
+	Status Datetime
+
+We should be able to do the following actions on a location:
+	Initialize a business
+	All fields must be set - no employees can be added during init
+	Add employee
+	Add multiple employees
+	Get all employees for a location
+	Get employee by employee id, return null if not found
+	Transfer employee from one location to another - BONUS
+	Print out company information in a pretty format AND optionally print out all employee information
+
+We should be able to do the following actions on an employee:
+	Initialize employee
+	Should be assigned next available employee id
+	All other fields must be set at time of initialization
+	Change position
+	Change last name
+	Print out employee information in a pretty format
+	Update status
+		Status Date should also be update any time status changes
+	Get status
+	Get status date
