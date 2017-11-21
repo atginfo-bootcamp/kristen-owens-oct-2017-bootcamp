@@ -202,5 +202,37 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "LocationManagement.cls": {
+        "id": "01p1I00000BbqYoQAJ",
+        "name": "LocationManagement",
+        "createdDate": "2017-11-20T22:36:23.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-11-21T00:57:34.000+0000",
+        "fullName": "LocationManagement",
+        "fileName": "unpackaged/classes/LocationManagement.cls",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "EmployeeTrigger.trigger": {
+        "id": "01q1I000000RSIdQAO",
+        "name": "EmployeeTrigger",
+        "createdDate": "2017-11-21T00:42:30.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-11-21T00:50:35.000+0000",
+        "fullName": "EmployeeTrigger",
+        "fileName": "unpackaged/triggers/EmployeeTrigger.trigger",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
     }
 }
