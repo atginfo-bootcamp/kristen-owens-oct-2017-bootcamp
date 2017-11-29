@@ -1,0 +1,62 @@
+
+<apex:page standardController="Account" showHeader="true" sidebar="false">
+	<apex:form>
+		<apex:sectionHeader title="MyHeaderTitle" subtitle="MyHeaderSubTitle" />
+		<apex:pageBlock title="MyPageBlockTitle">
+			<apex:pageBlockButtons location="top">
+				
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection title="MyPageBlockSectionTitle">
+
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+
+		<apex:sectionHeader title="Bottom Section Header" subtitle="Bottom Section Subtitle"/>
+		<apex:pageBlock title="MyPageBlockTitle" dir="LTR">
+			<apex:pageBlockButtons location="top">
+				
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection title="MyPageBlockSectionTitle" columns="1">
+
+				<!-- Does some formatting. Field name will be in a separate column, right aligned and bolded -->
+				<apex:outputField value="{!account.name}"/>
+				<apex:outputField value="{!account.type}"/>
+				<apex:outputField value="{!account.createdDate}"/>
+
+				<!-- To use dates and times you have to format them yourself if you want them to look like they do in salesforce -->
+				<apex:outputText value="{!account.createdDate}" label="This Is Output Text with Created Date as a Merge Field"/>
+
+				<!-- Will be in the same column as the labels, left aligned -->
+				<apex:outputText value="Whoa, this is text bro..." />
+
+				<!-- A label will format the output text like an output field (the label is in the place of the field name) -->
+				<apex:outputText value="Whoa, this is text WITH A LABEL bro..." label="A Label" />
+
+				<!-- You can get supa fancy with it, and use formulas, format things, etc. -->
+			    <apex:outputText style="font-style:italic" value="This is {0} text with {1} YO">
+			       <apex:param value="my"/>
+			       <apex:param value="arguments"/>
+			    </apex:outputText>
+
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+
+		<apex:outputPanel layout="block">
+			This is a div!
+		</apex:outputPanel>
+
+		<apex:outputPanel layout="block">
+			This is another div!
+		</apex:outputPanel>
+
+		<apex:outputPanel layout="inline">
+			This is a span!
+		</apex:outputPanel>
+
+		<apex:outputPanel layout="inline">
+			This is one more span!
+		</apex:outputPanel>
+
+	</apex:form>
+
+</apex:page>
