@@ -1,0 +1,21 @@
+<apex:page sidebar="false" controller="MyAccountController" tabStyle="Account">
+<!-- tabStyle will just set the color scheme -->
+
+	<apex:form>
+
+		<!-- Put code or furmulas in {! } -->
+		<apex:pageBlock title="Congratulations {! $User.FirstName }">
+			You belong to Account Name: <apex:inputField value="{!account.name}"/>
+
+
+			<!-- action calls a method in the controller, i.e. here "save" -->
+			<apex:commandButton action="{!save}" value="Save the Account" />
+
+			<!-- Recommended: don't use <br> for line breaks, use CSS -->
+			<apex:outputField value="{!account.type}"/>
+
+		</apex:pageBlock>
+
+	</apex:form>
+	
+</apex:page>
