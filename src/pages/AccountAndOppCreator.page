@@ -1,0 +1,57 @@
+<apex:page showHeader="true" sidebar="true" controller="AccountAndOppCreatorController">
+	<apex:form>
+
+		<apex:sectionHeader title="Account with Contact and Opportunity" subtitle="Create Account, Contact, and Opportunity" />
+		<apex:pageBlock title="Data to Create" tabstyle="Account" id="create">
+			<apex:pageMessages/>
+			<apex:pageBlockButtons location="bottom" >
+				<apex:commandButton action="{! createData }" value="Create Data" reRender="create,created"/>
+				<!-- reRender will re-render whatever sections of the page have IDs that are in the list (id on pageBlock, outputPanel) -->
+			</apex:pageBlockButtons>
+
+			<apex:pageBlockSection title="Account">
+				<apex:inputField value="{! account.Name}" required="true"/>
+				<apex:inputField value="{! account.AccountNumber}" required="true"/>
+				<apex:inputField value="{! account.Description}" />
+				<apex:inputField value="{! account.Type}" required="true"/>
+			</apex:pageBlockSection>
+
+			<apex:pageBlockSection title="Contact">
+				<apex:inputField value="{! contact.FirstName}" required="true"/>
+				<apex:inputField value="{! contact.LastName}" required="true"/>
+				<apex:inputField value="{! contact.Salutation}"/>
+			</apex:pageBlockSection>
+
+			<apex:pageBlockSection title="Opportunity">
+				<apex:inputField value="{! opportunity.Name}" />
+				<apex:inputField value="{! opportunity.Type}" required="true"/>
+				<apex:inputField value="{! opportunity.StageName}" required="true"/>
+				<apex:inputField value="{! opportunity.CloseDate}"/>
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+
+		<apex:outputPanel id="created">
+			<apex:pageBlock title="Created Data" tabstyle="Account" rendered="{! rendered }" >	
+				<apex:pageBlockSection title="Account">
+					<apex:outputField value="{! createdAccount.Name}" />
+					<apex:outputField value="{! createdAccount.AccountNumber}"/>
+					<apex:outputField value="{! createdAccount.Description}" />
+					<apex:outputField value="{! createdAccount.Type}" />
+				</apex:pageBlockSection>
+
+				<apex:pageBlockSection title="Contact">
+					<apex:outputField value="{! createdContact.FirstName}"/>
+					<apex:outputField value="{! createdContact.LastName}" />
+					<apex:outputField value="{! createdContact.Salutation}"/>
+				</apex:pageBlockSection>
+
+				<apex:pageBlockSection title="Opportunity">
+					<apex:outputField value="{! createdOpportunity.Name}" />
+					<apex:outputField value="{! createdOpportunity.Type}" />
+					<apex:outputField value="{! createdOpportunity.StageName}" />
+					<apex:outputField value="{! createdOpportunity.CloseDate}"/>
+				</apex:pageBlockSection>
+			</apex:pageBlock>
+		</apex:outputPanel>
+	</apex:form>
+</apex:page>

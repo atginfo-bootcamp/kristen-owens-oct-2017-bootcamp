@@ -350,37 +350,5 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
-    },
-    "BulkDeleteAccounts.page": {
-        "id": "0661I000003av9cQAA",
-        "name": "BulkDeleteAccounts",
-        "createdDate": "2017-11-30T22:20:49.000+0000",
-        "createdById": "0051I000000dBBaQAM",
-        "namespacePrefix": null,
-        "lastModifiedById": "0051I000000dBBaQAM",
-        "lastModifiedDate": "2017-12-01T15:24:20.000+0000",
-        "fullName": "BulkDeleteAccounts",
-        "fileName": "unpackaged/pages/BulkDeleteAccounts.page",
-        "createdByName": "Kristen Owens",
-        "lastModifiedByName": "Kristen Owens",
-        "manageableState": "unmanaged",
-        "type": "ApexPage",
-        "mmState": "clean"
-    },
-    "BulkDeleteAccountsController.cls": {
-        "id": "01p1I00000DPYZvQAP",
-        "name": "BulkDeleteAccountsController",
-        "createdDate": "2017-11-30T22:21:13.000+0000",
-        "createdById": "0051I000000dBBaQAM",
-        "namespacePrefix": null,
-        "lastModifiedById": "0051I000000dBBaQAM",
-        "lastModifiedDate": "2017-12-01T01:05:44.000+0000",
-        "fullName": "BulkDeleteAccountsController",
-        "fileName": "unpackaged/classes/BulkDeleteAccountsController.cls",
-        "createdByName": "Kristen Owens",
-        "lastModifiedByName": "Kristen Owens",
-        "manageableState": "unmanaged",
-        "type": "ApexClass",
-        "mmState": "clean"
     }
 }
