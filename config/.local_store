@@ -350,37 +350,5 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
-    },
-    "AccountAndOppCreator.page": {
-        "id": "0661I000003bd8uQAA",
-        "name": "AccountAndOppCreator",
-        "createdDate": "2017-12-05T22:18:17.000+0000",
-        "createdById": "0051I000000dBBaQAM",
-        "namespacePrefix": null,
-        "lastModifiedById": "0051I000000dBBaQAM",
-        "lastModifiedDate": "2017-12-06T00:27:51.000+0000",
-        "fullName": "AccountAndOppCreator",
-        "fileName": "unpackaged/pages/AccountAndOppCreator.page",
-        "createdByName": "Kristen Owens",
-        "lastModifiedByName": "Kristen Owens",
-        "manageableState": "unmanaged",
-        "type": "ApexPage",
-        "mmState": "clean"
-    },
-    "AccountAndOppCreatorController.cls": {
-        "id": "01p1I00000EPqo4QAD",
-        "name": "AccountAndOppCreatorController",
-        "createdDate": "2017-12-05T22:18:57.000+0000",
-        "createdById": "0051I000000dBBaQAM",
-        "namespacePrefix": null,
-        "lastModifiedById": "0051I000000dBBaQAM",
-        "lastModifiedDate": "2017-12-06T00:20:15.000+0000",
-        "fullName": "AccountAndOppCreatorController",
-        "fileName": "unpackaged/classes/AccountAndOppCreatorController.cls",
-        "createdByName": "Kristen Owens",
-        "lastModifiedByName": "Kristen Owens",
-        "manageableState": "unmanaged",
-        "type": "ApexClass",
-        "mmState": "clean"
     }
 }
