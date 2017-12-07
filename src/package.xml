@@ -18,6 +18,9 @@
 		<members>NewAccountController</members>
 		<members>AccountListControllerExt</members>
 		<members>Day15DynamicSOQL</members>
+		<members>BulkDeleteAccountsController</members>
+		<members>AccountAndOppCreatorController</members>
+		<members>PassByReferenceExample</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -31,6 +34,8 @@
 		<members>MyAccount</members>
 		<members>NewAccount</members>
 		<members>AccountList</members>
+		<members>BulkDeleteAccounts</members>
+		<members>AccountAndOppCreator</members>
 		<name>ApexPage</name>
 	</types>
 	<version>40.0</version>

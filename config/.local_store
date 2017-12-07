@@ -350,5 +350,19 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "PassByReferenceExample.cls": {
+        "createdById": "0051I000000dBBaQAM",
+        "createdByName": "Kristen Owens",
+        "createdDate": "2017-12-07T22:17:02.000Z",
+        "fileName": "unpackaged/classes/PassByReferenceExample.cls",
+        "fullName": "PassByReferenceExample",
+        "id": "01p1I00000ES1AoQAL",
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedByName": "Kristen Owens",
+        "lastModifiedDate": "2017-12-07T22:17:02.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
