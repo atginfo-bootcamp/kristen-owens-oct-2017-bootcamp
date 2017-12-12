@@ -428,5 +428,33 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "OpportunityTriggerHelper.cls": {
+        "createdById": "0051I000000dBBaQAM",
+        "createdByName": "Kristen Owens",
+        "createdDate": "2017-12-12T22:35:06.000Z",
+        "fileName": "unpackaged/classes/OpportunityTriggerHelper.cls",
+        "fullName": "OpportunityTriggerHelper",
+        "id": "01p1I00000FFhtLQAT",
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedByName": "Kristen Owens",
+        "lastModifiedDate": "2017-12-12T22:35:06.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "OpportunityTrigger.trigger": {
+        "createdById": "0051I000000dBBaQAM",
+        "createdByName": "Kristen Owens",
+        "createdDate": "2017-12-12T22:36:19.000Z",
+        "fileName": "unpackaged/triggers/OpportunityTrigger.trigger",
+        "fullName": "OpportunityTrigger",
+        "id": "01q1I000000SYHeQAO",
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedByName": "Kristen Owens",
+        "lastModifiedDate": "2017-12-12T22:36:19.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
     }
 }

@@ -29,12 +29,14 @@
 		<members>AsincExecutionExample</members>
 		<members>CreateContactForAccountBatch</members>
 		<members>CreateAccountSchedulable</members>
+		<members>OpportunityTriggerHelper</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>LeadTrigger</members>
 		<members>ContactTrigger</members>
 		<members>EmployeeTrigger</members>
+		<members>OpportunityTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
