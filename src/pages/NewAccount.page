@@ -1,0 +1,23 @@
+<apex:page showHeader="true" sidebar="false" controller="NewAccountController">
+	
+	<apex:form >
+	
+		<apex:pageBlock mode="inlineEdit">
+			<apex:pageMessages />
+			<apex:pageBlockSection >
+
+				<!-- We have BOUND these input fields to our account variable. They will always reference these fields on this specific account -->
+				<apex:inputField value="{!account.name}"/>
+				<apex:inputField value="{!account.phone}"/>
+				<apex:inputField value="{!account.industry}"/>
+			</apex:pageBlockSection>
+			<apex:pageBlockButtons location="bottom">
+				<apex:commandButton value="Create or Update Account" action="{!save}"/>
+			</apex:pageBlockButtons>
+
+		</apex:pageBlock>
+	
+	</apex:form>
+	
+
+</apex:page>
