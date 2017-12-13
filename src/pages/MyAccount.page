@@ -1,7 +1,7 @@
 <apex:page sidebar="false" controller="MyAccountController" tabStyle="Account">
 <!-- tabStyle will just set the color scheme -->
 
-	<apex:form>
+	<apex:form >
 
 		<!-- Put code or furmulas in {! } -->
 		<apex:pageBlock title="Congratulations {! $User.FirstName }">

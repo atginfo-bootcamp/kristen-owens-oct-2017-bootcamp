@@ -1,14 +1,14 @@
 <apex:page showHeader="true" sidebar="true" controller="BulkDeleteAccountsController" tabStyle="Account">
 
-	<apex:form>
+	<apex:form >
 		<apex:pageBlock title="Create Accounts">
-		<apex:pageMessages/>
+		<apex:pageMessages />
 
 			<apex:pageBlockButtons location="bottom">
 				<apex:commandButton action="{! createAccounts }" value="Create Accounts" />
 			</apex:pageBlockButtons>
 
-			<apex:pageBlockSection>
+			<apex:pageBlockSection >
 				<apex:inputText label="Prefix" value="{! prefix}"/>
 				<apex:inputText label="Number of Accounts" value="{!numAccts}"/>
 			</apex:pageBlockSection>
@@ -17,11 +17,10 @@
 	</apex:form>
 
 	<!-- List of accts -->
-	<apex:form>
+	<apex:form >
 
 		<!-- action = function in controller, name = ?, reRender = what id to reRender (see pageBlock id) -->
-		<apex:actionFunction
-			action="{! toggleSelectAll }"
+		<apex:actionFunction action="{! toggleSelectAll }"
 			name="toggleSelectAll"
 			reRender="query-accounts"
 		>
@@ -35,7 +34,7 @@
 			
 			<apex:pageBlockTable value="{! accountWrappers }" var="wrapper">
 
-				<apex:column>
+				<apex:column >
 					<apex:facet name="header">
 						<apex:inputCheckbox value="{! selectAll}" onchange="toggleSelectAll()"/>
 					</apex:facet>
