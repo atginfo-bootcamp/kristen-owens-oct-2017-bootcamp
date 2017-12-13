@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Business__c.Address__c</members>
+        <members>Business__c.Business_Name__c</members>
+        <members>Business__c.Phone_Number__c</members>
+        <members>Employee__c.Business_Location__c</members>
+        <members>Employee__c.First_Name__c</members>
+        <members>Employee__c.Hire_Date__c</members>
+        <members>Employee__c.Last_Name__c</members>
+        <members>Employee__c.Status_Date__c</members>
+        <members>Employee__c.Status__c</members>
+        <members>Employee__c.Title__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Business__c</members>
+        <members>Employee__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Business__c-en_US</members>
+        <members>Employee__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Business__c</members>
+        <members>Employee__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Business__c-Business Layout</members>
+        <members>Employee__c-Employee Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Business__c.All</members>
+        <members>Employee__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Bootcamp_Permissions_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Business__c</members>
+        <name>SharingRules</name>
+    </types>
+    <version>39.0</version>
+</Package>
