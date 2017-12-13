@@ -1,9 +1,9 @@
 <apex:page showHeader="true" sidebar="true" controller="AccountAndOppCreatorController">
-	<apex:form>
+	<apex:form >
 
 		<apex:sectionHeader title="Account with Contact and Opportunity" subtitle="Create Account, Contact, and Opportunity" />
 		<apex:pageBlock title="Data to Create" tabstyle="Account" id="create">
-			<apex:pageMessages/>
+			<apex:pageMessages />
 			<apex:pageBlockButtons location="bottom" >
 				<apex:commandButton action="{! createData }" value="Create Data" reRender="create,created"/>
 				<!-- reRender will re-render whatever sections of the page have IDs that are in the list (id on pageBlock, outputPanel) -->

@@ -1,10 +1,10 @@
 <apex:page showHeader="true" sidebar="false" controller="NewAccountController">
 	
-	<apex:form>
+	<apex:form >
 	
 		<apex:pageBlock mode="inlineEdit">
-			<apex:pageMessages/>
-			<apex:pageBlockSection>
+			<apex:pageMessages />
+			<apex:pageBlockSection >
 
 				<!-- We have BOUND these input fields to our account variable. They will always reference these fields on this specific account -->
 				<apex:inputField value="{!account.name}"/>
