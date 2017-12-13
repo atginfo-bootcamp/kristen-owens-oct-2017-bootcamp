@@ -24,7 +24,7 @@ public with sharing class OpportunityTriggerHelper {
 
 	}
 
-	public static void handleAfterUpdate(List<Opportunity> opportunities) {
+	public static void handleAfterUpdate(List<Opportunity> opportunities, Map<Id, Opportunity> oldOpportunityMap) {
 		List<Opportunity> closedWonOpps = new List<Opportunity>();
 		for(Opportunity opportunity : opportunities) {
 			if(opportunity.StageName == 'Closed Won') {
@@ -67,10 +67,10 @@ public with sharing class OpportunityTriggerHelper {
 
 		for(Account acct : accounts) {
 			if(acct.Contacts.size() >= 1) {
-				Contact contact = acct.Contacts[1];
+				Contact contact = acct.Contacts[0];
 				existingContacts.add(contact);
 			} else if(acct.Contacts.size() < 1) {
-				Contact newContact = new Contact(FirstName='Joe', LastName='Schmo');
+				Contact newContact = new Contact(FirstName='Joe', LastName='Schmo', AccountId = acct.Id);
 				newContacts.add(newContact);
 			}
 
