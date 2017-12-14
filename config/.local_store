@@ -202,7 +202,7 @@
         "createdById": "0051I000000dBBaQAM",
         "namespacePrefix": null,
         "lastModifiedById": "0051I000000dBBaQAM",
-        "lastModifiedDate": "2017-12-13T23:04:06.000+0000",
+        "lastModifiedDate": "2017-12-13T23:38:56.000+0000",
         "fullName": "OpportunityTriggerHelper",
         "fileName": "unpackaged/classes/OpportunityTriggerHelper.cls",
         "createdByName": "Kristen Owens",
@@ -533,6 +533,22 @@
         "lastModifiedByName": "Kristen Owens",
         "manageableState": "unmanaged",
         "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "OpportunityTriggerHelperTests.cls": {
+        "id": "01p1I00000FFqwQQAT",
+        "name": "OpportunityTriggerHelperTests",
+        "createdDate": "2017-12-13T23:27:16.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-12-14T00:40:13.000+0000",
+        "fullName": "OpportunityTriggerHelperTests",
+        "fileName": "unpackaged/classes/OpportunityTriggerHelperTests.cls",
+        "createdByName": "Kristen Owens",
+        "lastModifiedByName": "Kristen Owens",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
         "mmState": "clean"
     }
 }
