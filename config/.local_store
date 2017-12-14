@@ -420,15 +420,17 @@
         "mmState": "clean"
     },
     "ContractDateStatusBatchable.cls": {
-        "createdById": "0051I000000dBBaQAM",
-        "createdByName": "Kristen Owens",
-        "createdDate": "2017-12-14T23:02:24.000Z",
-        "fileName": "unpackaged/classes/ContractDateStatusBatchable.cls",
-        "fullName": "ContractDateStatusBatchable",
         "id": "01p1I00000FG0j8QAD",
+        "name": "ContractDateStatusBatchable",
+        "createdDate": "2017-12-14T23:02:24.000+0000",
+        "createdById": "0051I000000dBBaQAM",
+        "namespacePrefix": null,
         "lastModifiedById": "0051I000000dBBaQAM",
+        "lastModifiedDate": "2017-12-14T23:35:00.000+0000",
+        "fullName": "ContractDateStatusBatchable",
+        "fileName": "unpackaged/classes/ContractDateStatusBatchable.cls",
+        "createdByName": "Kristen Owens",
         "lastModifiedByName": "Kristen Owens",
-        "lastModifiedDate": "2017-12-14T23:35:00.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"

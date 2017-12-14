@@ -57,6 +57,7 @@ global class ContractDateStatusBatchable implements Database.Batchable<sObject>,
 	}
 
 	global void execute(SchedulableContext sc) {
+		System.debug('Executing scheduled ContractDateStatusBatchable');
 		database.executebatch(new ContractDateStatusBatchable());
 	}
 	
